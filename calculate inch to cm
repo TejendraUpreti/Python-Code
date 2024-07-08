@@ -1,0 +1,6 @@
+n = int(input("Enter the values of inch: "))
+
+def inch_to_cms(inch):
+    return inch * 2.54    
+
+print(f"Value of CMS: {inch_to_cms(n)}")
